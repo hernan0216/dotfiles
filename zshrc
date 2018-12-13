@@ -1,3 +1,5 @@
+HISTFILE=~/.zsh_history
+plugins=(history rails git ruby pep8)
 # load custom executable functions
 for function in ~/.zsh/functions/*; do
   source $function
@@ -46,3 +48,8 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+source /Users/hernan0216/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+source /Users/hernan0216/zaw/zaw.zsh
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
